@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Importações — Grupo Pigatto</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/simulador-importacoes-site/assets/index-Cdux5m4W.js"></script>
+    <link rel="stylesheet" crossorigin href="/simulador-importacoes-site/assets/index-CugPb41O.css">
+  </head>
+  <body>
+    <button class="menu-open" id="menuShow" type="button">☰ Menu</button>
+    <aside class="sidebar" id="sidebar">
+      <div class="logo"><img src="./logo-grupo-pigatto.png" alt="Grupo Pigatto" /></div>
+      <div class="nav-setor">Comércio Exterior</div>
+      <nav class="nav" id="nav">
+        <button data-view="simulacao" class="destaque active">SIMULAÇÃO</button>
+        <button data-view="comparativo">Comparativo PR x SC</button>
+        <button data-view="favoritos">NCMs que trabalhamos</button>
+        <button data-view="salvas">Simulações salvas</button>
+        <button data-view="parametros">Parâmetros fiscais</button>
+        <button data-view="fontes">Fontes e limitações</button>
+      </nav>
+      <div class="side-foot" id="sideFoot">Fontes: Siscomex · TEC/MDIC · TIPI/RFB · PTAX/BCB<br><button type="button" class="side-hide" id="sairAcesso" style="text-align:left;padding:8px 0 0">🔒 Sair (bloquear)</button></div>
+    </aside>
+    <main class="main" id="app"><div class="carregando">Carregando…</div></main>
+    <div class="toast" id="toast"></div>
+  </body>
+</html>
